@@ -1,6 +1,10 @@
 :root { 
-  -- amarelo-principal: #EDF9A5
-  -- azul-segundaria: #6B90C2
-  -- botão-verde: #99B787
-  -- cor-de-fundo: #8F5825
+  -- amarelo-principal: #EDF9A5;
+  -- azul-segundaria: #6B90C2;
+  -- botão-verde: #99B787;
+  -- cor-de-fundo: #8F5825;
+}
+
+body { 
+  background-color: var (--cor-de-fundo);
 }
