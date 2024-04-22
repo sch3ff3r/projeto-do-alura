@@ -121,6 +121,12 @@ color: var(--amarelo-principal);
     margin: 5em 3em;
 }
 
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
 .rodape__lista {
     display: flex;
     justify-content: center;
