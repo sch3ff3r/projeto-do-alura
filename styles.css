@@ -8,6 +8,8 @@
 body { 
   background-color: var (--cor-de-fundo);
   color: var (--amarelo-principal); 
+  font-size: 16px;
+  font-weight: 400;
 }
 
 { 
@@ -38,3 +40,9 @@ background-color: var(--botao-verde);
 .botao_segundario {
   background-color: transparente 
   border: 2px solid var (--amarelo-principal) 
+}
+
+container_aviso {
+  font-size: 16px;
+  color: var(--azul-segundario);
+}
