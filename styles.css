@@ -23,6 +23,8 @@ padding: 0;
   background-image: url ("IMG-20240421-WA0042.jpg")
   background-repeat:no-repeat;
   background-size: contain; 
+  aling-intens: center;
+  text-align: center;
     }
 
 .container {
@@ -38,6 +40,7 @@ background-color: var(--botao-verde);
   color: var(--amarelo-principal); 
   display: block; 
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_segundario {
@@ -50,7 +53,15 @@ container_aviso {
   color: var(--azul-segundario);
 }
 
+.container__imagem {
+  margin: 1em 0 2em 0; 
+}
+
 .container__titulo {
 font-size: 28px;
 font-weigth: 700;
+}
+
+.container__caixa {
+  margin: 0 6em; 
 }
