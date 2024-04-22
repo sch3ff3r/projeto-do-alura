@@ -1,7 +1,7 @@
 :root { 
   -- amarelo-principal: #EDF9A5;
   -- azul-segundaria: #6B90C2;
-  -- botão-verde: #99B787;
+  -- botao-verde: #99B787;
   -- cor-de-fundo: #8F5825;
 }
 
@@ -23,4 +23,12 @@ padding: 0;
 
 .container {
   height: 100vh;
+}
+
+.container_botao { 
+background-color: var(--botao-verde);
+  border-radius: 10px;
+  padding: 1em;
+  color: var(--amarelo-principal); 
+  display: block; 
 }
