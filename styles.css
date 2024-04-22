@@ -116,15 +116,16 @@ font-size: 48px;
 color: var(--amarelo-principal);
 }
 
-.lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
-}
-
 .rodape {
     text-align: center;
     margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
 }
 
 .rodape__texto {
@@ -133,8 +134,8 @@ color: var(--amarelo-principal);
     font-size: 14px;
 }
 
-.lista__link a:hover {
-    color: var(--botao-azul);
+.lista__link a:hover { 
+    color: var(--botao-verde);
 }
 
 .lista__link a:active {
@@ -145,8 +146,10 @@ color: var(--amarelo-principal);
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
 .rodape__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin-top: 1em;
+}
