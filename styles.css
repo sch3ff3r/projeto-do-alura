@@ -97,4 +97,5 @@ margin-top: 1em;
 
 .livros { 
   display: flex; 
+ justify-content:center;
 }
