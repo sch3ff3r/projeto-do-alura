@@ -95,7 +95,12 @@ margin-top: 1em;
   padding: 2em; 
 }
 
-.livros { 
+.lista__livros { 
   display: flex; 
  justify-content:center;
+  list-style-type:none;
+}
+
+.livros { 
+  text-align: center; 
 }
