@@ -99,6 +99,7 @@ margin-top: 1em;
   display: flex; 
  justify-content:center;
   list-style-type:none;
+  margin: sem 0; 
 }
 
 .livros { 
@@ -107,4 +108,10 @@ margin-top: 1em;
 
 .livros__titulo {
 font-size: 48px; 
+  color: var(--amarelo-principal);
+}
+
+.lista__item {
+  font-size: 32px 
+color: var(--amarelo-principal);
 }
