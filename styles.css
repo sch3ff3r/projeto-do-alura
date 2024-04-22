@@ -34,3 +34,7 @@ background-color: var(--botao-verde);
   color: var(--amarelo-principal); 
   display: block; 
 }
+
+.botao_segundario {
+  background-color: transparente 
+  border: 2px solid var (--amarelo-principal) 
