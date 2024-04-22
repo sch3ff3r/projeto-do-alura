@@ -46,3 +46,9 @@ container_aviso {
   font-size: 16px;
   color: var(--azul-segundario);
 }
+
+.container__titulo {
+font-size: 28px;
+font-weigth: 400;
+  
+}
