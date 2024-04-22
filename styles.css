@@ -95,7 +95,7 @@ margin-top: 1em;
   padding: 2em; 
 }
 
-.lista__livros { 
+.livros__listas { 
   display: flex; 
  justify-content:center;
   list-style-type:none;
@@ -103,4 +103,8 @@ margin-top: 1em;
 
 .livros { 
   text-align: center; 
+}
+
+.livros__titulo {
+font-size: 48px; 
 }
