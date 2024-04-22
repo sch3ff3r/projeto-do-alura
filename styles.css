@@ -37,6 +37,7 @@ background-color: var(--botao-verde);
   padding: 1em;
   color: var(--amarelo-principal); 
   display: block; 
+  text-decoration: none;
 }
 
 .botao_segundario {
@@ -52,5 +53,4 @@ container_aviso {
 .container__titulo {
 font-size: 28px;
 font-weigth: 700;
-  
 }
